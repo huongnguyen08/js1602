@@ -8,12 +8,27 @@ let arrName = ['Ti', 'An', 'Minh', 'An', 'Teo'];
 // console.log(arrName.fill('An',2,1))
 // console.log(arrName.filter(name=>name==='An'))
 
+
+// let arrNumber = [1,3,4,5,7,9,21,81,121];
+// // in ra cac so chinh phuong trong mang
+// console.log(arrNumber.filter(n=> {
+//      Math.sqrt(n) == parseInt(Math.sqrt(n)) 
+// }))
+
+// console.log(Math.sqrt(21))
+// can2(n)*can2(n) = n
+
+
+
 let n = 3456;
 // co bao nhieu so tu 0->n chia het cho 123, in ra cac so do
 // DK: khong dung cu phap if...else
+let arr = [];
+for(let i = 0; i<=n; i++){
+    arr.push(i)
+}
+let newArr = arr.filter(value=>value%123===0)
+// let dem = newArr.length
+console.log(`Co ${newArr.length} so chia het cho 123. Cac phan tu do la: ${newArr}` )
 
-
-let arrNumber = [1,3,4,5,7,9,21,81,121];
-// in ra cac so chinh phuong trong mang
-
-console.log(Math.sqrt(9))
+// console.log(arr)
