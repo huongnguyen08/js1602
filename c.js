@@ -12,13 +12,13 @@ let arrName = ['Ti', 'An', 'Minh', 'An', 'Teo'];
 let arrNumber = [1,3,4,5,7,9,21,81,121];
 // in ra cac so chinh phuong trong mang
 console.log(arrNumber.filter(n=> {
-    for(let i= 0; i<=n;i++){
-        if(i*i == n)
-        return n
-    }
+    // for(let i= 0; i<=n;i++){
+    //     if(i*i == n)
+    //     return n
+    // }
+    return parseInt(Math.sqrt(n))*parseInt(Math.sqrt(n)) == n
 }))
 
-// console.log(Math.sqrt(21))
 // can2(n)*can2(n) = n
 
 
