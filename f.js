@@ -45,7 +45,7 @@
 // t(2,4)
 
 
-let n = 100
+// let n = 100
 /**
  * in ra day cac so chia het cho 2
  * in ra day cac so khong chia het cho 2
@@ -64,20 +64,20 @@ let n = 100
 // }
 // soChia3Du1(n)
 
-function inSo(n,dk){
-    for(let i = 0; i<=n; i++){
-        const check = dk(i) //kiemtraSochan(i)
-        if(check) console.log(i)
-    }
-}
-function kiemtraSochan(n){
-    return n%2==0
-}
-function kiemtraSoLe(n){
-    return n%2==1
-}
+// function inSo(n,dk){
+//     for(let i = 0; i<=n; i++){
+//         const check = dk(i) //kiemtraSochan(i)
+//         if(check) console.log(i)
+//     }
+// }
+// function kiemtraSochan(n){
+//     return n%2==0
+// }
+// function kiemtraSoLe(n){
+//     return n%2==1
+// }
 
-inSo(100,kiemtraSoLe)
+// inSo(100,kiemtraSoLe)
 
 
 /**
@@ -106,7 +106,42 @@ inSo(100,kiemtraSoLe)
         *   *    //i=3;j=5;j=3
       *     *
     * * * * *    //i=5;j=1,2,3,4,5
+    
+
 
  * 
  * 
  */
+// let n = 100
+// function inSo(n,soChia, soDu){
+//     for(let i = 0; i<=n; i++){
+//         const check = i%soChia==soDu
+//         if(check) console.log(i)
+//     }
+// }
+// inSo(n,3,1)
+
+// let arr = [2,4,55,7]
+// arr.forEach(n=>{
+//     console.log(n)
+// })
+// setInterval(()=>{
+
+// },1000)
+
+// const A = function(){
+
+// }
+// A()
+// function name(){
+
+// }
+// name()
+// ()=>{}
+// (a,b)=>{ return ...}
+// a=>console.log(a)
+
+
+// if(2>1) {
+//     console.log('Dung')
+// }
