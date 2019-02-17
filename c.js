@@ -16,9 +16,10 @@ console.log(arrNumber.filter(n=> {
     //     if(i*i == n)
     //     return n
     // }
-    return parseInt(Math.sqrt(n))*parseInt(Math.sqrt(n)) == n
+    // return parseInt(Math.sqrt(n))*parseInt(Math.sqrt(n)) == n
+    return parseInt(Math.sqrt(n))== Math.sqrt(n)
 }))
-
+console.log(arrNumber.filter(n=>parseInt(Math.sqrt(n))== Math.sqrt(n)))
 // can2(n)*can2(n) = n
 
 
