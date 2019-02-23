@@ -26,5 +26,3 @@ class Line{
 // console.log(OA.getLengh())
 
 module.exports = {Point,Line}
-// module.exports = Point
-// module.exports = Line
