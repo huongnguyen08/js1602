@@ -14,9 +14,10 @@
 // }
 
 class Person{
-    constructor(ten, tuoi){
+    constructor(ten, tuoi, school){
         this.name = ten
         this.age = tuoi
+        this.school = school
         // this.getName = function(){
         //     console.log(this.name)
         // }
@@ -24,11 +25,22 @@ class Person{
     getName(){
         console.log(this.name)
     }
+    gotoSchool(){
+        console.log(`${this.name} dang hoc o ${this.school.name}`)
+    }
 }
-const ti = new Person('Ti Nguyen',20)
-const teo = new Person('Teo Nguyen',22)
-ti.name = 'Ti'
-ti.getName()
+const school = {
+    name : 'KPT',
+    address: 'Charminton'
+}
+const ti = new Person('Ti Nguyen',20,school)
+ti.gotoSchool()
+
+
+
+// const teo = new Person('Teo Nguyen',22)
+// ti.name = 'Ti'
+// ti.getName()
 // console.log(ti.age)
 
 // console.log(ti, teo)
