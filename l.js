@@ -20,7 +20,11 @@ class Line{
         return Math.sqrt(dx*dx + dy*dy)
     }
 }
-const O = new Point(2,2);
-const A = new Point(1,1);
-const OA = new Line(O,A);
-console.log(OA.getLengh())
+// const O = new Point(2,2);
+// const A = new Point(1,1);
+// const OA = new Line(O,A);
+// console.log(OA.getLengh())
+
+module.exports = {Point,Line}
+// module.exports = Point
+// module.exports = Line
