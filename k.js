@@ -6,4 +6,10 @@ class Person{
     get ten(){
         return this.name
     }
+    set setupTen(ten){
+        this.name = ten
+    }
 }
+const teo = new Person('Teo', 160)
+teo.setupTen = 'Teo Nguyen' // set
+console.log(teo.ten)  // get ten() 
